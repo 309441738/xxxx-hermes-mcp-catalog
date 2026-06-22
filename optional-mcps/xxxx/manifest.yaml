@@ -1,0 +1,20 @@
+# Nous-approved MCP catalog entry (PR template).
+# Merge into https://github.com/NousResearch/hermes-agent/tree/main/optional-mcps
+manifest_version: 1
+
+name: xxxx
+description: xxxx —— 由 CruiseSkillBridge 一键发布的MCP。
+source: https://github.com/309441738/xxxx-hermes-skill
+
+transport:
+  type: http
+  url: http://127.0.0.1:3004/api/gw/mcp/5c11491b-fd3c-4727-8c5c-1501899717a5
+
+auth:
+  type: none
+
+post_install: |
+  MCP Server published via CruiseSkillBridge.
+  Gateway URL: http://127.0.0.1:3004/api/gw/mcp/5c11491b-fd3c-4727-8c5c-1501899717a5
+  Restart Hermes after install so tools load.
+
