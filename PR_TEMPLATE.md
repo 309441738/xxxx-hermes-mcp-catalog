@@ -4,7 +4,7 @@ Add MCP catalog entry **xxxx** (xxxx).
 
 ## Transport
 
-- HTTP streamable MCP at `http://127.0.0.1:3004/api/gw/mcp/5c11491b-fd3c-4727-8c5c-1501899717a5`
+- HTTP streamable MCP at `http://127.0.0.1:3004/api/gw/mcp/239b8089-7f92-431f-acf4-dfd18d2c0865`
 
 ## Checklist
 
